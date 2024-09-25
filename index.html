@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+  <!--=============== REMIXICONS ===============-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <title>Dang Trung Hieu</title>
+</head>
+
+<body>
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Hieu</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li>
+            <a href="#home" class="nav__link active-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#info" class="nav__link">My Info</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="nav__link">Projects</a>
+          </li>
+
+          <li>
+            <a href="#services" class="nav__link">Services</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="nav__link">Contact Me</a>
+          </li>
+        </ul>
+
+        <!-- Close button -->
+        <div class="nav__close" id="nav-close">
+          <i class="ri-close-large-line"></i>
+        </div>
+      </div>
+
+      <!-- Toggle button -->
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="ri-menu-line"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!--==================== MAIN ====================-->
+  <main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <!-- Insert your profile image (rectangular ratio 220 x 350, 550 x 860...) -->
+        <img src="assets/img/ava/me_nba.jpg" alt="image" class="home__img">
+
+        <div class="home__data">
+          <h1 class="home__name">Dang <br> Trung Hieu</h1>
+          <h3 class="home__profession">Data Lover:)</h3>
+        </div>
+
+        <!-- <a href="#projects" class="home__scroll">
+          <div class="home__scroll-box">
+            <i class="ri-arrow-down-line"></i>
+          </div>
+
+          <span class="home__scroll-text">Scroll down:)</span>
+        </a> -->
+      </div>
+    </section>
+
+
+
+    <!--==================== INFO ====================-->
+    <section class="info section" id="info">
+      <h2 class="section__title">MY INFO</h2>
+
+      <div class="info__container container grid">
+        <!-- ABOUT -->
+        <div class="about grid">
+          <div class="about__content">
+            <h3 class="info__title">About Me</h3>
+            <p class="about__description">
+              I am a final-year student from Nanyang Technological University. I have experience in <b>data
+                preprocessing</b>, <b>data analysis</b>, and <b>data visualization</b> with several completed projects
+              and a published paper. I also developed and trained AI model during my last internship.
+            </p>
+            <!-- Insert your CV -->
+            <a href="assets/pdf/DangTrungHieu_CV.pdf" download="" target="_blank" class="button about__button">Download
+              CV</a>
+          </div>
+
+          <!-- Insert your profile image (rectangular ratio 250 x 350, 450 x 620...) -->
+          <img src="assets/img/ava/me_vnyarun.jpg" alt="image" class="about__img">
+        </div>
+
+        <!-- EXPERIENCE -->
+        <div class="experience">
+          <h3 class="info__title">Experience</h3>
+
+          <div class="experience__content grid">
+            <div class="experience__data grid">
+              <h2 class="experience__company">Singapore-MIT</h2>
+
+              <div>
+                <h3 class="experience__profession">Machine Learning Engineer</h3>
+                <span class="experience__date">05/24 - 08/24</span>
+                <p class="experience__description">
+                  - GAN model for temperature downscaling
+                </p>
+                <p class="experience__description">
+                  - Achieved 0.45°C MAE, exceeded target of 2°C
+                </p>
+              </div>
+            </div>
+
+            <div class="experience__data grid">
+              <h2 class="experience__company">Singapore-MIT</h2>
+
+              <div>
+                <h3 class="experience__profession">Data Analyst</h3>
+                <span class="experience__date">01/24 - 04/24</span>
+                <p class="experience__description">
+                  - Large, multitable data preprocessing
+                </p>
+                <p class="experience__description">
+                  - Statistical analysis and visualizations
+                </p>
+                <p class="experience__description">
+                  - <a href="https://www.sciencedirect.com/science/article/abs/pii/S2212095524002475" target="_blank">
+                    Published paper
+                  </a> on Urban Climate Journal
+                </p>
+              </div>
+            </div>
+
+            <div class="experience__data grid">
+              <h2 class="experience__company">Scala Center</h2>
+
+              <div>
+                <h3 class="experience__profession">Student Developer</h3>
+                <span class="experience__date">05/23 - 08/23 (Remote)</span>
+                <p class="experience__description">
+                  - <a href="https://summerofcode.withgoogle.com/programs/2023/projects/O5hVJAO1" target="_blank">GSoC
+                    2023</a>: http4s Ember WebSocket Client
+                </p>
+
+                <p class="experience__description"></p>
+                - <a href="https://www.youtube.com/watch?v=3HAStrljVwY&ab_channel=NortheastScalaSymposium"
+                  target="_blank">Project Presentation</a> at Northeast Scala Symposium
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SKILLS -->
+        <div class="skills">
+          <h3 class="info__title">Skills</h3>
+          <div class="skills__content grid">
+            <div class="skills__box">
+              <!-- Find more logos at: https://worldvectorlogo.com/ - https://svgl.app/ -->
+              <img src="assets/img/logo/info-python.svg" alt="image" class="skills__img">
+              <span class="skills__name">Python</span>
+            </div>
+
+            <div class="skills__box">
+              <img src="assets/img/logo/info-r.svg" alt="image" class="skills__img">
+              <span class="skills__name">R</span>
+            </div>
+
+            <div class="skills__box">
+              <img src="assets/img/logo/info-sql.svg" alt="image" class="skills__img">
+              <span class="skills__name">SQL</span>
+            </div>
+
+            <div class="skills__box">
+              <img src="assets/img/logo/info-scala.svg" alt="image" class="skills__img">
+              <span class="skills__name">Scala</span>
+            </div>
+
+            <div class="skills__box">
+              <img src="assets/img/logo/info-haskell.svg" alt="image" class="skills__img">
+              <span class="skills__name">Haskell</span>
+            </div>
+
+            <div class="skills__box">
+              <img src="assets/img/logo/info-pandas.svg" alt="image" class="skills__img">
+              <span class="skills__name">Pandas</span>
+            </div>
+
+            <div class="skills__box">
+              <img src="assets/img/logo/info-numpy.svg" alt="image" class="skills__img">
+              <span class="skills__name">Numpy</span>
+            </div>
+
+            <div class="skills__box">
+              <img src="assets/img/logo/info-netcdf4.svg" alt="image" class="skills__img">
+              <span class="skills__name">NetCDF4</span>
+            </div>
+
+            <div class="skills__box">
+              <img src="assets/img/logo/info-excel.svg" alt="image" class="skills__img">
+              <span class="skills__name">Excel</span>
+            </div>
+
+            <div class="skills__box">
+              <img src="assets/img/logo/info-powerbi.svg" alt="image" class="skills__img">
+              <span class="skills__name">Power BI</span>
+            </div>
+
+            <div class="skills__box">
+              <img src="assets/img/logo/info-tableau.svg" alt="image" class="skills__img">
+              <span class="skills__name">Tableau</span>
+            </div>
+            
+            <div class="skills__box">
+              <img src="assets/img/logo/info-plotly.svg" alt="image" class="skills__img">
+              <span class="skills__name">Plotly</span>
+            </div>
+
+            <div class="skills__box">
+              <img src="assets/img/logo/info-sklearn.svg" alt="image" class="skills__img">
+              <span class="skills__name">Scikit-learn</span>
+            </div>
+
+            <div class="skills__box">
+              <img src="assets/img/logo/info-python.svg" alt="image" class="skills__img">
+              <span class="skills__name">PyTorch</span>
+            </div>
+
+            <div class="skills__box">
+              <img src="assets/img/logo/info-tensorflow.svg" alt="image" class="skills__img">
+              <span class="skills__name">Tensorflow</span>
+            </div>
+
+            <div class="skills__box">
+              <img src="assets/img/logo/info-graphql.svg" alt="image" class="skills__img">
+              <span class="skills__name">GraphQL</span>
+            </div>
+
+            <div class="skills__box">
+              <img src="assets/img/logo/info-postgresql.svg" alt="image" class="skills__img">
+              <span class="skills__name">PostgresQL</span>
+            </div>
+
+            <div class="skills__box">
+              <img src="assets/img/logo/info-git.svg" alt="image" class="skills__img">
+              <span class="skills__name">Git</span>
+            </div>
+
+            <div class="skills__box">
+              <img src="assets/img/logo/info-linux.svg" alt="image" class="skills__img">
+              <span class="skills__name">Linux</span>
+            </div>
+
+            <div class="skills__box">
+              <img src="assets/img/logo/info-html.svg" alt="image" class="skills__img">
+              <span class="skills__name">HTML</span>
+            </div>
+
+            <div class="skills__box">
+              <img src="assets/img/logo/info-css.svg" alt="image" class="skills__img">
+              <span class="skills__name">CSS</span>
+            </div>
+
+            <div class="skills__box">
+              <img src="assets/img/logo/info-react.svg" alt="image" class="skills__img">
+              <span class="skills__name">React</span>
+            </div>
+
+            <div class="skills__box">
+              <img src="assets/img/logo/info-highcharts.svg" alt="image" class="skills__img">
+              <span class="skills__name">HighCharts</span>
+            </div>
+
+            <div class="skills__box">
+              <img src="assets/img/logo/info-flask.svg" alt="image" class="skills__img">
+              <span class="skills__name">Flask</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== WORKS ====================-->
+    <section class="work section" id="projects">
+      <h2 class="section__title">RECENT WORKS</h2>
+
+      <div class="work__container container grid">
+        <article class="work__card">
+          <a href="https://www.sciencedirect.com/science/article/abs/pii/S2212095524002475" target="_blank"
+            class="work__link">
+            <h2 class="work__title">Published Paper</h2>
+            <p class="work__description">
+              Impact of rainfall on air temperature, humidity and ...
+            </p>
+
+            <!-- Insert the images of your projects (rectangular ratio 640 x 425...) -->
+            <img src="assets/img/recent_works/project_urbanclimate.jpg" alt="image" class="work__img">
+
+            <i class="ri-arrow-right-line"></i>
+          </a>
+        </article>
+
+        <article class="work__card">
+          <a href="#projects" target="_blank" class="work__link">
+            <h2 class="work__title">T2 GAN</h2>
+            <p class="work__description">
+              GAN for T2 (0.45°C MAE). Work unavailable
+            </p>
+
+            <img src="assets/img/recent_works/project_T2GAN.png" alt="image" class="work__img">
+
+            <i class="ri-arrow-right-line"></i>
+          </a>
+        </article>
+
+        <article class="work__card">
+          <a href="https://summerofcode.withgoogle.com/programs/2023/projects/O5hVJAO1" target="_blank"
+            class="work__link">
+            <h2 class="work__title">GSoC 2023</h2>
+            <p class="work__description">
+              http4s Ember WebSocket Client
+            </p>
+
+            <img src="assets/img/recent_works/project_gsoc.png" alt="image" class="work__img">
+
+            <i class="ri-arrow-right-line"></i>
+          </a>
+        </article>
+
+        <article class="work__card">
+          <a href="https://public.tableau.com/app/profile/hieu.dang5562/vizzes" target="_blank" class="work__link">
+            <h2 class="work__title">imdb-tableau</h2>
+            <p class="work__description">
+              Tableau Dashboard displaying IMDB series ratings
+            </p>
+
+            <img src="assets/img/recent_works/project_imdb_tableau.png" alt="image" class="work__img">
+
+            <i class="ri-arrow-right-line"></i>
+          </a>
+        </article>
+
+        <article class="work__card">
+          <a href="https://github.com/danghieutrung/imdb-react-graphql" target="_blank" class="work__link">
+            <h2 class="work__title">imdb-react-graphql</h2>
+            <p class="work__description">
+              HighCharts front-end app displaying IMDB series ratings
+            </p>
+
+            <img src="assets/img/recent_works/project_imdb_react_graphql.png" alt="image" class="work__img">
+
+            <i class="ri-arrow-right-line"></i>
+          </a>
+        </article>
+
+        <article class="work__card">
+          <a href="https://github.com/danghieutrung/covid-19-mortality-analysis/tree/main/data" target="_blank"
+            class="work__link">
+            <h2 class="work__title">U.S. COVID-19 Mortality Analysis</h2>
+            <p class="work__description">
+              COVID-19 data analysis and forecasting
+            </p>
+
+            <img src="assets/img/recent_works/project_covid19.png" alt="image" class="work__img">
+
+            <i class="ri-arrow-right-line"></i>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!--==================== SERVICES ====================-->
+    <section class="services section" id="services">
+      <h2 class="section__title">SERVICES</h2>
+
+      <div class="services__container container grid">
+        <article class="services__card">
+          <i class="ri-code-box-line services__icon"></i>
+
+          <h3 class="services__title">Data Preprocessing and Modelling</h3>
+          <p class="services__description">
+            Large, multi-table data cleaning and modelling
+          </p>
+        </article>
+
+        <article class="services__card">
+          <i class="ri-pencil-ruler-2-line services__icon"></i>
+
+          <h3 class="services__title">Data Analysis and Visualization</h3>
+          <p class="services__description">
+            Conduct quantitative data analysis. Create meaningful, simple or complex visualizations
+          </p>
+        </article>
+
+        <article class="services__card">
+          <i class="ri-layout-2-line services__icon"></i>
+
+          <h3 class="services__title">BI Tools</h3>
+          <p class="services__description">
+            Experience with Excel, Tableau, and Power BI
+          </p>
+        </article>
+
+        <article class="services__card">
+          <i class="ri-seo-line services__icon"></i>
+
+          <h3 class="services__title">ML/AI</h3>
+          <p class="services__description">
+            Experience with AI in CV and NLP
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!--==================== CONTACT ====================-->
+    <section class="contact section" id="contact">
+      <h2 class="section__title__contactme">CONTACT ME</h2>
+      <h3 class="my_email">hieudangtrung@protonmail.com</h3>
+
+      <div class="contact__container container grid">
+        <form action="" class="contact__form grid" id="contact-form">
+          <div class="contact__group grid">
+            <input type="text" name="user_name" placeholder="Names" required class="contact__input">
+            <input type="email" name="user_email" placeholder="Email" required class="contact__input">
+          </div>
+
+          <textarea name="user_message" id="message" placeholder="Message" required
+            class="contact__input contact__area"></textarea>
+
+          <button type="submit" class="button contact__button">Send Message</button>
+
+          <p class="contact__message" id="contact-message"></p>
+        </form>
+
+        <div class="contact__social grid">
+          <a href="https://www.facebook.com/curry2974" target="_blank" class="contact__social-link">
+            <i class="ri-facebook-circle-line"></i>
+            <span>Facebook</span>
+          </a>
+
+          <a href="https://www.instagram.com/stephen_squirry/" target="_blank" class="contact__social-link">
+            <i class="ri-instagram-line"></i>
+            <span>Instagram</span>
+          </a>
+
+          <a href="https://www.linkedin.com/in/trunghieudang" target="_blank" class="contact__social-link">
+            <i class="ri-linkedin-box-line"></i>
+            <span>Linkedin</span>
+          </a>
+
+          <a href="https://x.com/hieu_dang_" target="_blank" class="contact__social-link">
+            <i class="ri-twitter-line"></i>
+            <span>X (Twitter)</span>
+          </a>
+
+          <a href="https://open.spotify.com/user/vejhzanembwlmo1vslzsmrux9" target="_blank"
+            class="contact__social-link">
+            <i class="ri-spotify-line"></i>
+            <span>Spotify</span>
+          </a>
+
+          <a href="https://github.com/danghieutrung" target="_blank" class="contact__social-link">
+            <i class="ri-github-line"></i>
+            <span>danghieutrung</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer">
+    <div class="footer__container container grid">
+      <ul class="footer__links">
+        <li>
+          <a href="#home" class="footer__link">Home</a>
+        </li>
+
+        <li>
+          <a href="#projects" class="footer__link">Projects</a>
+        </li>
+
+        <li>
+          <a href="#info" class="footer__link">Info</a>
+        </li>
+      </ul>
+
+      <span class="footer__copy">
+        &#169; Dang Trung Hieu. All rights reserved</a>
+      </span>
+    </div>
+  </footer>
+
+  <!--========== SCROLL UP ==========-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+  </a>
+
+  <!--=============== SCROLLREVEAL ===============-->
+  <script src="assets/js/scrollreveal.min.js"></script>
+
+  <!--=============== EMAIL JS ===============-->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
